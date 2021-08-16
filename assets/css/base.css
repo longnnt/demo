@@ -1,10 +1,21 @@
 :root {
     --primary-color: #fb5533;
     --white-color: #fff;
+    --navbar-height: 34px;
+    --header-height: 120px;
 }
 
 .grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+@keyframes growth {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
