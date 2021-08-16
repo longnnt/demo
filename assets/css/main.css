@@ -1,0 +1,103 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
+    background-image: linear-gradient(#f63e2e,#ff6533);
+}
+
+.navbar {
+    
+}
+
+.top {
+    color: var(--white-color);
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list  {
+    list-style: none;
+    font-size: .8125rem;
+    position: relative;
+}
+
+.items {
+    display: inline-block;
+    margin: 10px 8px;
+    line-height: 1.2;
+}
+
+.items:hover,
+.items-link:hover {
+    color: #ffc1bb;
+}
+
+.items--has-separate {
+    border-right: 3px solid #f75a48;
+    height: 14px;
+}
+
+.items--has-QR::after{
+    content: "";
+    margin: 0;
+    width: 184px;
+    height: 250px;
+    position: absolute;
+    top: 34px;
+    right: -42px;
+    background-color: #fff;
+    background-image: url(/assets/img/QR.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.items:hover > .items--has-QR {
+    display: block;
+}
+
+
+
+
+.items-link {
+    color: var(--white-color);
+    position: relative;
+    text-decoration: none;
+}
+
+.icon-link {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 1rem;
+    color: var(--white-color);   
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-link-fb {
+    padding: 4px;
+}
+.icon-link-insta {
+    margin-left: 24px;
+}
+
+.icon-link {
+    font-size: 1rem;
+}
+
+
+
+
