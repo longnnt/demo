@@ -374,6 +374,7 @@ html {
     height: 45px;
     width: 45px;
     margin-top: 10px;
+    user-select: none;
 }
 
 .extra-items-text {
