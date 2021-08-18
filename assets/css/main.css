@@ -363,18 +363,22 @@ html {
 
 .extra-items-1 {
     width: 100px;
-    height: 80px;
+    height: 92px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    cursor: pointer;
+}
+
+.extra-items-1:hover {
+    transform: translateY(-1px);
 }
 
 .extra-items-img {
     height: 45px;
     width: 45px;
     margin-top: 10px;
-    user-select: none;
 }
 
 .extra-items-text {
@@ -390,4 +394,104 @@ html {
 .extra-items-1 p:nth-child(7),
 .extra-items-1 p:nth-child(8) {
     padding-bottom: 13px;
+}
+
+.row-1 {
+    height: 584px;
+    background-color: #f5f5f5;
+}
+
+.row-1-head {
+    height: 110px;
+    padding: 20px 0 20px;
+}
+
+.row-1-head-img {
+    height: 110px;
+}
+
+.row-1-container {
+    height: 448px;
+    background-color: #fff;
+}
+
+.r1-left {
+    width: 578px;
+    height: 297px;
+}
+
+.detail {
+    color: var(--primary-color);
+    list-style: none;
+    padding: 8px 5px;
+}
+
+.r1-list {
+    width: 578px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r1-list-items {
+    padding: 0 15px;
+    width: 162px;
+    height: 237px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.r1-list-items::after {
+    display: block;
+    content: "21% GIẢM";
+    height: 52px;
+    width: 50px;
+    text-align: center;
+    background-color: #ffd839;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 78%, 0 100%);
+    position: absolute;
+    top: 0;
+    right: 1px;
+}
+
+.list-product {
+    height: 162px;
+    width: 162px;
+}
+
+.text-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 17px;
+}
+
+.detail:last-child {
+    font-size: 12px;
+}
+
+.list-product-text {
+    margin-top: 6px;
+    color: var(--primary-color);
+}
+
+.r1 {
+    background-color: #ffecdb;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 17px;
+    margin-top: -6px;
+    border-radius: 0 0 10px 10px;
+}
+
+.r1-right {
+    width: 578px;
+    height: 297px;
+}
+
+.row-2 {
+    height: 364px;
+    background-color: #000;
 }
